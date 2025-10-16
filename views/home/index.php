@@ -25,13 +25,12 @@
         <li class="dropdown">
           <a href="#">Productos ▾</a>
           <ul class="dropdown-menu">
-            <li><a href="#">Remeras</a></li>
+            <li><a href="views/home/remeras.php">Remeras</a></li>
             <li><a href="#">Pantalones</a></li>
             <li><a href="#">Accesorios</a></li>
           </ul>
         </li>
         <li><a href="#">Ofertas</a></li>
-        <li><a href="#">Contacto</a></li>
       </ul>
       <div class="icons">
         <a href="#"><i class="fas fa-search"></i></a>
@@ -76,7 +75,6 @@
         <ul>
           <li><a href="#">Preguntas Frecuentes</a></li>
           <li><a href="#">Política de Privacidad</a></li>
-          <li><a href="#">Contacto</a></li>
         </ul>
       </div>
 
@@ -84,7 +82,6 @@
         <h4>MASSIVE</h4>
         <ul>
           <li><a href="#">Inicio</a></li>
-          <li><a href="#">Locales</a></li>
         </ul>
       </div>
 

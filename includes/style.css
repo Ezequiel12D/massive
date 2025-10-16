@@ -322,7 +322,7 @@ body {
     margin: 80px auto;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -392,4 +392,138 @@ button:hover {
 
 .form-container a:hover {
     text-decoration: underline;
+}
+
+
+.products {
+    padding: 80px 20px;
+    text-align: center;
+    background: #fafafa;
+}
+
+.products h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    color: #111;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.35s ease;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Imagen */
+.card img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+  background: #eaeaea;
+  transition: transform 0.4s ease;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+
+.card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 15px 0 6px;
+    color: #111;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.card .price {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #000;
+    margin: 4px 0;
+}
+
+.card .price-small {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.card .price-cuotas {
+    color: #999;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+/* Botón moderno (opcional) */
+.card a {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 22px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.card a:hover {
+    background: #222;
+}
+
+/* Hover sutil con brillo */
+.card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 18px;
+}
+
+.card:hover::after {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .card img {
+        height: 340px;
+    }
+
+    .products h2 {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        gap: 25px;
+    }
+
+    .card img {
+        height: 300px;
+    }
 }
