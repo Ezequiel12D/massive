@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Massive - Remeras</title>
+    <title>Massive - accesorios</title>
     <link rel="stylesheet" href="../../includes/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
     <div class="topbar">
         <div class="topbar-content">
@@ -27,7 +26,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="remeras.php">Remeras</a></li>
                         <li><a href="#">Pantalones</a></li>
-                        <li><a href="accesorios.php">Accesorios</a></li>
+                        <li><a href="#">Accesorios</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Ofertas</a></li>
@@ -39,47 +38,45 @@
             </div>
         </nav>
     </header>
-
-    <section class="products">
-        <h2>Remeras</h2>
+     <section class="products">
+        <h2>Accesorios</h2>
         <div class="grid">
 
             <div class="card">
-                <img src="../../includes/remera1.png" alt="Remera 1">
-                <h3>Remera Tribal</h3>
-                <p class="price">$39.500</p>
-                <p class="price-small">$33.575 con transferencia</p>
-                <p class="price-cuotas">6 cuotas sin interés de $6.583,33</p>
+                <img src="../../includes/pulsera.png" alt="Pulsera">
+                <h3>Pulsera Tennis ICE</h3>
+                <p class="price">$15.000</p>
+                <p class="price-small">$12.000 con transferencia</p>
+                <p class="price-cuotas">6 cuotas sin interés de $2.500</p>
             </div>
 
             <div class="card">
-                <img src="../../includes/remera2.png" alt="Remera 2">
-                <h3>Remera Odd Blanco</h3>
-                <p class="price">$39.500</p>
-                <p class="price-small">$33.575 con transferencia</p>
-                <p class="price-cuotas">6 cuotas sin interés de $6.583,33</p>
+                <img src="../../includes/gorra.png" alt="Gorra">
+                <h3>Gorra New Era 9FORTY Duki</h3>
+                <p class="price">$99.999</p>
+                <p class="price-small">$85.000 con transferencia</p>
+                <p class="price-cuotas">6 cuotas sin interés de $16.666,5</p>
             </div>
 
             <div class="card">
-                <img src="../../includes/remera3.jpg" alt="Remera 3">
-                <h3>Remera Boxy Still</h3>
-                <p class="price">$39.500</p>
-                <p class="price-small">$33.575 con transferencia</p>
-                <p class="price-cuotas">6 cuotas sin interés de $6.583,33</p>
+                <img src="../../includes/cruz.png" alt="Cruz">
+                <h3>Set cadena y cruz ice</h3>
+                <p class="price">$25.500</p>       
+                <p class="price-small">$21.500 con transferencia</p>
+                <p class="price-cuotas">6 cuotas sin interés de $4.250</p>
             </div>
 
             <div class="card">
-                <img src="../../includes/remera4.jpg" alt="Remera 4">
-                <h3>Musculosa Miller</h3>
-                <p class="price">$35.000</p>
-                <p class="price-small">$29.750 con transferencia</p>
-                <p class="price-cuotas">6 cuotas sin interés de $5.833,33</p>
+                <img src="../../includes/llavero.png" alt="Llavero">
+                <h3>Llavero POOL</h3>
+                <p class="price">$6.000</p>
+                <p class="price-small">$4.000 con transferencia</p>
+                <p class="price-cuotas">3 cuotas sin interés de $2.000</p>
             </div>
 
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer class="footer">
         <div class="footer-top">
             <div class="footer-section">
