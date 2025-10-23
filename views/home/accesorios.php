@@ -25,8 +25,8 @@
                     <a href="#">Productos ▾</a>
                     <ul class="dropdown-menu">
                         <li><a href="remeras.php">Remeras</a></li>
-                        <li><a href="#">Pantalones</a></li>
-                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="pantalones.php">Pantalones</a></li>
+                        <li><a href="accesorios.php">Accesorios</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Ofertas</a></li>

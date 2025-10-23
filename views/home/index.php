@@ -26,7 +26,7 @@
           <a href="#">Productos ▾</a>
           <ul class="dropdown-menu">
             <li><a href="views/home/remeras.php">Remeras</a></li>
-            <li><a href="#">Pantalones</a></li>
+            <li><a href="views/home/pantalones.php">Pantalones</a></li>
             <li><a href="views/home/accesorios.php">Accesorios</a></li>
           </ul>
         </li>

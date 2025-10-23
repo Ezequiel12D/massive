@@ -1,5 +1,5 @@
 <?php
-session_start(); // ✅ Esto va primero
+session_start();
 
 $controller = $_GET['c'] ?? 'home';
 $method = $_GET['m'] ?? 'index';

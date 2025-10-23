@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Massive - Remeras</title>
+    <title>Massive - Pantalones</title>
     <link rel="stylesheet" href="../../includes/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
     <div class="topbar">
         <div class="topbar-content">
@@ -39,47 +38,37 @@
             </div>
         </nav>
     </header>
-
-    <section class="products">
-        <h2>Remeras</h2>
+     <section class="products">
+        <h2>Pantalones</h2>
         <div class="grid">
 
             <div class="card">
-                <img src="../../includes/remera1.png" alt="Remera 1">
-                <h3>Remera Tribal</h3>
-                <p class="price">$39.500</p>
-                <p class="price-small">$33.575 con transferencia</p>
-                <p class="price-cuotas">6 cuotas sin interés de $6.583,33</p>
-            </div>
-
-            <div class="card">
-                <img src="../../includes/remera2.png" alt="Remera 2">
-                <h3>Remera Odd Blanco</h3>
-                <p class="price">$39.500</p>
-                <p class="price-small">$33.575 con transferencia</p>
-                <p class="price-cuotas">6 cuotas sin interés de $6.583,33</p>
-            </div>
-
-            <div class="card">
-                <img src="../../includes/remera3.jpg" alt="Remera 3">
-                <h3>Remera Boxy Still</h3>
-                <p class="price">$39.500</p>
-                <p class="price-small">$33.575 con transferencia</p>
-                <p class="price-cuotas">6 cuotas sin interés de $6.583,33</p>
-            </div>
-
-            <div class="card">
-                <img src="../../includes/remera4.jpg" alt="Remera 4">
-                <h3>Musculosa Miller</h3>
+                <img src="../../includes/pantalon1.png" alt="Pantalon1">
+                <h3>Pantalon Baggy GRIS</h3>
                 <p class="price">$35.000</p>
                 <p class="price-small">$29.750 con transferencia</p>
                 <p class="price-cuotas">6 cuotas sin interés de $5.833,33</p>
             </div>
 
+            <div class="card">
+                <img src="../../includes/pantalon2.png" alt="Pantalon2">
+                <h3>BERMUDA 3/4 CELESTE</h3>
+                <p class="price">$27.500</p>
+                <p class="price-small">$24.000 con transferencia</p>
+                <p class="price-cuotas">6 cuotas sin interés de $4.583</p>
+            </div>
+
+            <div class="card">
+                <img src="../../includes/pantalon3.png" alt="pantalon3">
+                <h3>JOGGING GRIS</h3>
+                <p class="price">$25.500</p>       
+                <p class="price-small">$21.500 con transferencia</p>
+                <p class="price-cuotas">6 cuotas sin interés de $4.250</p>
+            </div>
+
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer class="footer">
         <div class="footer-top">
             <div class="footer-section">
